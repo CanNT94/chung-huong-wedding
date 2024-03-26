@@ -7,7 +7,7 @@ import Timeout = NodeJS.Timeout;
   styleUrls: ['./countdown.component.css']
 })
 export class CountdownComponent implements OnInit, OnDestroy {
-  deadline = new Date(2024, 2, 29, 17, 0, 0);
+  deadline = new Date(2024, 2, 29, 19, 0, 0);
   total = 0;
   day = '00';
   hour = '00';
